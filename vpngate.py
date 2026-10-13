@@ -85,15 +85,7 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-       "www.lacoste.qa:443,polestar.com:443,www.bis.gov:443,onetrust.com:443,www.allianz.com:443,linear.app:443,www.vmware.com:443,"
-"www.researchgate.net:443,www.carousell.sg:443,www.dbs.com:443,hzytjy.cn:443,saas.sin.fan:443,www.transunion.hk:443,gh-proxy.com:443,"
-"china.mfa.gov.ua:443,www.deepl.com:443,www.airasia.com:443,cloudflare.seeck.cn:443,mfa.gov.ua:443,www.udacity.com:443,www.victoriassecretbeauty.co.th:443,"
-"locknlock.vn:443,cdn.204910.best:443,glassdoor.com:443,uspto.gov:443,chotot.com:443,auctions.ihg.com.cn:443,www.jimdo.com:443,"
-"www.blibli.com:443,staticdelivery.nexusmods.com:443,www.leics.police.uk:443,foodpanda.hk:443,www.broadcom.com:443,markmonitor.com:443,"
-"www.zendesk.com:443,cf.877774.xyz:443,www.wto.org:443,www.allianz.com.my:443,ralphlauren.com.sg:443,www.emerson.com:443,store.ubi.com:443,"
-"www.nexusmods.com:443,www.shopify.com:443,jobsdb.com:443,www.allianz.co.id:443,prizepicks.com:443,constitution.congress.gov:443,"
-"batdongsan.com.vn:443,serviceshub.samsclub.com:443,www.allianz.co.th:443,openai.com:443,spring.io:443,www.sage.com:443,bluehost.com:443,"
-"ip.skk.moe:443,www.nike.qa:443,cf.090227.xyz:443,pfizer.com.hk:443,nexusmods.com:443",
+       "",
     ).split(",")
     if h.strip()
 ]
